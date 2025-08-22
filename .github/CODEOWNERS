@@ -1,0 +1,35 @@
+# CODEOWNERS file for payment-library-308
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-reliability @Armor-test/grp-search @Armor-test/squad-cloud
+
+# Directory ownership
+/controllers/ @Armor-test/grp-payments @Armor-test/unit-design
+/ui/ @Armor-test/squad-payments @Armor-test/squad-performance
+/docs/ @Armor-test/team-logging @Armor-test/squad-search @Armor-test/grp-reporting
+/services/ @Armor-test/dept-ui @Armor-test/unit-cloud @Armor-test/squad-ml
+/pages/ @Armor-test/dept-security @Armor-test/squad-cloud
+/dist/ @Armor-test/unit-design @Armor-test/squad-cache @Armor-test/squad-reporting
+/utils/ @Armor-test/squad-research @Armor-test/squad-reporting @Armor-test/squad-ml
+/migrations/ @Armor-test/grp-storage @Armor-test/team-notifications @Armor-test/dept-test
+/components/ @Armor-test/unit-cloud @Armor-test/squad-ml @Armor-test/grp-search
+/spec/ @Armor-test/unit-governance @Armor-test/dept-billing
+
+# File type ownership
+*.ini @Armor-test/unit-design @Armor-test/team-notifications
+*.properties @Armor-test/dept-reliability @Armor-test/squad-ux @Armor-test/grp-storage
+*.scala @Armor-test/dept-reliability @Armor-test/team-frontend @Armor-test/squad-tooling
+*.gradle @Armor-test/squad-payments @Armor-test/team-notifications
+*.lock @Armor-test/squad-qa @Armor-test/dept-identity
+*.h @Armor-test/squad-database @Armor-test/squad-apps
+*.cs @Armor-test/squad-payments @Armor-test/grp-search
+*.yaml @Armor-test/squad-apps @Armor-test/grp-reporting
+*.toml @Armor-test/team-logging @Armor-test/team-notifications
+*.jsx @Armor-test/dept-automation @Armor-test/unit-governance @Armor-test/grp-storage
+*.html @Armor-test/grp-ui @Armor-test/dept-billing
+*.md @Armor-test/team-frontend @Armor-test/unit-design
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
